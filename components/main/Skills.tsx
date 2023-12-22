@@ -5,7 +5,7 @@ import SkillText from '../sub/SkillText'
 
 function Skills() {
     return (
-        <div className='flex flex-col items-center justify-center gap-3 h-full relative pb-70 overflow-hidden py-20' style={{ transform: 'scale(0.9)' }}>
+        <div id="skills" className='flex flex-col items-center justify-center gap-3 h-full relative pb-70 overflow-hidden py-20' style={{ transform: 'scale(0.9)' }}>
             <SkillText />
             <div className='flex flex-row justify-around flex-wrap mt-4 gap-5 items-center'>
                 {
@@ -15,6 +15,7 @@ function Skills() {
                             height={image.height}
                             width={image.width}
                             index={index}
+                            name = {image.skill_name}
                         >
 
                         </SkillsDataProvider>
@@ -29,6 +30,7 @@ function Skills() {
                             height={image.height}
                             width={image.width}
                             index={index}
+                            name = {image.skill_name}
                         >
 
                         </SkillsDataProvider>
@@ -43,6 +45,7 @@ function Skills() {
                             height={image.height}
                             width={image.width}
                             index={index}
+                            name = {image.skill_name}
                         >
 
                         </SkillsDataProvider>
@@ -57,6 +60,7 @@ function Skills() {
                             height={image.height}
                             width={image.width}
                             index={index}
+                            name = {image.skill_name}
                         >
 
                         </SkillsDataProvider>

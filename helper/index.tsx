@@ -84,14 +84,17 @@ export const Socials = [
     {
         name: "Github",
         src: "/git.jpg",
+        link : "https://github.com/AbdelattyBadwy16"
     },
     {
         name: "Facebook",
         src: "/facebook.svg",
+        link : "https://www.facebook.com/abdelatty.badwy.3/"
     },
     {
         name: "LinkedIn",
         src: "/in.png",
+        link : "https://www.linkedin.com/in/abdelatty-badwy-13b927247/"
     },
 ];
 
@@ -163,7 +166,7 @@ export const Frontend_skill = [
 export const Backend_skill = [
     {
         skill_name: "github",
-        Image: "/github.png",
+        Image: "/git.jpg",
         width: 80,
         height: 80,
     },

@@ -65,6 +65,14 @@
 }
 
 
+ul li::before {
+    content: "\2022";
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 
 html {
     scroll-behavior: smooth;

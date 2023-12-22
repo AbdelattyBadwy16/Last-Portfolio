@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <div className='w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 '>
+        <div className='w-full h-[65px] sm:block fixed hidden top-0 shadow-lg shadow-[#2A0E61]/50  bg-[#03001417] backdrop-blur-md z-[5000] px-10 '>
             <div className='w-full h-full flex flex-row items-center justify-between m-auto px-[10px]'>
                 <a href="#about" className='h-full w-auto flex flex-row items-center'>
                     <Image
@@ -30,16 +30,17 @@ export default function Navbar() {
                 <div className='flex flex-row gap-2'>
                     {
                         Socials.map((social) => (
-                            <Image
-                                src={social.src}
-                                alt={social.name}
-                                key={social.name}
-                                style={{borderRadius:'50%'}}
-                                width={24}
-                                height={24}
-                            >
-
-                            </Image>
+                            <a href={social.link} target='_blank'>
+                                <Image
+                                    src={social.src}
+                                    alt={social.name}
+                                    key={social.name}
+                                    style={{ borderRadius: '50%' }}
+                                    width={24}
+                                    height={24}
+                                >
+                                </Image>
+                            </a>
                         ))
                     }
                 </div>

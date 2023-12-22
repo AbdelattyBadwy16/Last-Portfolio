@@ -18,7 +18,7 @@ function Encryption() {
               },
             },
           }}
-          className='text-[40px] w-auto h-auto top-0 z-[5]'
+          className='text-[40px] w-auto h-auto top-0 z-[5] text-center sm:text-start'
         >
 
           Performance
