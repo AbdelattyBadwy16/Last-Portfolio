@@ -72,8 +72,8 @@ export const HeroContent = () => {
                     }}
                     className='text-lg text-gray-400 my-5 max-w-[600px] text-center sm:text-start'
                 >
-                    Greetings! I am Abdelatty Badwy, a 20-year-old computer science student at SVU University.
-                    Currently, I am focusing on becoming a skilled frontend developer and am actively learning React JS ,also have skills in Data Structure,
+                    Greetings! I'm Abdelatty Badwy, a 20-year-old computer science student at SVU University.
+                    Currently, I'm focusing on becoming a skilled frontend developer and am actively learning React JS ,also have skills in Data Structure,
                     Algorithm, and Problem Solving .
                 </motion.p>
 
