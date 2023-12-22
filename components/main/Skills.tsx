@@ -16,6 +16,7 @@ function Skills() {
                             width={image.width}
                             index={index}
                             name = {image.skill_name}
+                            key={image.skill_name}
                         >
 
                         </SkillsDataProvider>
@@ -31,6 +32,7 @@ function Skills() {
                             width={image.width}
                             index={index}
                             name = {image.skill_name}
+                            key={image.skill_name}
                         >
 
                         </SkillsDataProvider>
@@ -46,6 +48,7 @@ function Skills() {
                             width={image.width}
                             index={index}
                             name = {image.skill_name}
+                            key={image.skill_name}
                         >
 
                         </SkillsDataProvider>
@@ -61,6 +64,7 @@ function Skills() {
                             width={image.width}
                             index={index}
                             name = {image.skill_name}
+                            key={image.skill_name}
                         >
 
                         </SkillsDataProvider>
