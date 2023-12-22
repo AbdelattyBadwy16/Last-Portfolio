@@ -90,7 +90,7 @@ export const HeroContent = () => {
                         },
                     }}
                     className='py-2 button-primary text-center p-5 text-white mb-[50px] cursor-pointer rounded-lg max-w-[200px]'
-                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1Npo-A6PBwcZ5y2xiyTu6UogFGiEkL5fn%2Fview%3Ffbclid%3DIwAR2qXYrnlxFKe9yf9BmcAd5momQ7FjK2stfuGhuH3bn7MZMYCBOM73OLmXk&h=AT0GdyG6NOXEPDDsUQVczDIfp-dHAs3E2JIxp-MZiCztaEQgRRuSuzrlVWTezgrD2_RcCfOkBSxRVyg4LVIRHKq-Ys0WqrEd0rp_jHdY4Fl5dJF6FurDhxjjRuOyYa2II0_8Xg"
+                    href="https://drive.google.com/file/d/1qLWuw6UmYlQx3v9UY7L5k6A0Co1iUHI-/view?usp=sharing"
                     target="_blank"
                 >
                     Download CV
