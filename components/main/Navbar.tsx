@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className='flex flex-row gap-2'>
                     {
                         Socials.map((social) => (
-                            <a href={social.link} target='_blank'>
+                            <a href={social.link} key={social.name} target='_blank'>
                                 <Image
                                     src={social.src}
                                     alt={social.name}
